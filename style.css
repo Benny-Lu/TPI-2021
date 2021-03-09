@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.button-box{
+	width: 220px;
+	margin: 15px auto;
+	position:relative;  
+	box-shadow: 0 0 20px 9px #FFFFFF;
+	border-radius: 30px;
+	background: transparent;
+}
+
+
+
+
+
