@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
+/*Customised the button box*/
 .button-box{
 	width: 220px;
 	margin: 15px auto;
@@ -10,7 +11,11 @@
 	border-radius: 30px;
 	background: transparent;
 }
-
+.input-field{
+	width:100%;
+	padding:10px;
+	margin:5px 0;
+}
 
 
 
