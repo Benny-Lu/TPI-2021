@@ -47,10 +47,13 @@
 span{
 	color:#777;
 	font-size:12px;
-	bottom:64px;
+	bottom:48px;
 	position:absolute;
 }
-
+.container-fluid{
+	background-color: lightblue;
+	opacity:1;
+}
 
 
 
