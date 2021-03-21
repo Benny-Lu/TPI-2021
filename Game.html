@@ -2,61 +2,67 @@
 <html>
 <head>
 <style>
-	p{
-		margin:45px;
-	}
-	body{
-		background-color: lightblue;
-	}
-	div{
-		border:1px solid;
-	}
-	/*Hoverable images will be enlarged*/
-	img{
-		transition: all 0.25s;
-	}
-	img:hover{
-		transform: scale(1.2);
-	}
-  #myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: #ffffff;
-  color: black;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+p {
+    margin: 45px;
 }
-	html{
-		scroll-behavior: smooth;
-	}
-
+body {
+    background-color: lightblue;
+}
+div {
+    border: 1px solid;
+}
+/*Hoverable images will be enlarged*/
+img {
+    transition: all 0.25s;
+}
+img:hover {
+    transform: scale(1.2);
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
 #myBtn:hover {
-  background-color: #DFDFDF;
-}<strong></strong>
+    background-color: #DFDFDF;
+}
+html {
+    scroll-behavior: smooth;
+}
+<strong></strong>
 </style>
-<link rel="stylesheet" href="file:///C|/Users/ac98777/OneDrive - Avondale College/Dreamweaver/style.css">
+<link rel="stylesheet" href="../../OneDrive - Avondale College/HomeDream/style.css">
 <meta charset="utf-8">
 <title>Game</title>
 </head>
-
 <body>
-<div align="center">
-<h1>Riot Games</h1>
-<h2>League Of Legends</h2>
-<h3>League Mobs and structures</h3>
-<h3>Jungle Camps</h3>
-<div class="image">
-	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-</div>
-
-<script>
+<div>
+  <div>
+    <h1>Riot Games</h1>
+    <h2>League Of Legends</h2>
+    <a href="#Minions">
+    <h3>League Mobs and structures</h3>
+    </a> <a href="#Jungling">
+    <h3>Jungle Camps</h3>
+    </a> 
+	  <a href="#Champions">
+	<h3>Champions</h3>
+	  </a>
+	</div>
+  <div class="image">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  </div>
+  <script>
 //Get the button
 var mybutton = document.getElementById("myBtn");
 
@@ -77,34 +83,33 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 </script>
-	<h4>Minions</h4>
-	<!--LOL meaning League of Legends-->
-<img src="file:///C|/Users/ac98777/OneDrive - Avondale College/Dreamweaver/minions.png" alt="LOL-Minions" width="420" height="240">
-	<p>Minions are units that comprise the main force sent by the Nexus. They spawn periodically from their Nexus and advance along a lane towards the enemy Nexus, automatically engaging any enemy unit or structure they encounter. They are controlled by artificial intelligence and only use basic attacks.</p>
-	<h4>Turrents</h4>
-<img src="file:///C|/Users/ac98777/OneDrive - Avondale College/Dreamweaver/turret.png" alt="LOL-Turret">
-	<p>Turrets, also called towers, are heavy fortifications that attack enemy units on sight. Turrets are a core component of League of Legends. They deal damage to enemies and provide vision to their team, allowing them to better control the battlefield. Turrets target one unit at a time and deal heavy damage. Teams must destroy enemy turrets to push their assault into enemy territory.
-	</p>
-	<h4>Inhibitor</h4>
-<img src="file:///C|/Users/ac98777/OneDrive - Avondale College/Dreamweaver/inhib.png" alt="LOL-inhibitor">
-	<p>nhibitors are structures that block the training of enemy super minions in their respective same lane. Inhibitors have 4000 health, 15 health regeneration per second, 20 armor, and no magic resistance.
-
-Once an enemy team's inhibitor is destroyed, the Nexus will start spawning Super Minions (replacing the siege minions with Super Minions if the wave normally includes one).
-
-Each team has 3 Inhibitors on Summoner's Rift and 2 on Twisted Treeline, of which at least one must be destroyed for the Nexus and its turrets to be vulnerable to attack. Every inhibitor is protected by a turret; while this turret is up, the inhibitor is invulnerable to damage. When all of the enemy team's inhibitors are destroyed, each lane spawns two Super Minions per minion wave.
-
-Destroyed inhibitors respawn after 5 minutes, resulting in Super Minions no longer being trained.
-
-Once its protecting turret is destroyed the inhibitor is extremely susceptible to backdooring. An enemy Marksman icon.png marksman will be able to take down an unprotected inhibitor before a defending champion can Recall Recall and walk to defend it. Additionally, one can't directly Teleport Teleport to it. Destroying an inhibitor can often be worth more than a few champion kills because of the immense lane pressure that Super Minions will provide. (As of patch 3.14, destroyed inhibitors no longer increase the strength of all minions in all lanes). </p>
-	<h4>Nexus</h4>
-<img src="file:///C|/Users/ac98777/OneDrive - Avondale College/Dreamweaver/nexus.png" alt="LOL-Nexus">
-	<p>The Nexus is the primary objective in every League of Legends gamemode. A team only wins the match when their opposition's Nexus is destroyed.The Nexus forms the core of each team's base on the Summoner's Rift. Placed directly outside of the Spawn, the Nexus is guarded by two Turrets and spawns each team's Minion waves, one for each lane. The Nexus is undamagable so long as all three allied Inhibitors are alive, or at least one of its turrets are alive.</p>
-	<h4>Jungling</h4>
-<img src="file:///C|/Users/ac98777/OneDrive - Avondale College/Dreamweaver/Jungle_camps_SR.jpg" alt="LOL-Jungling">
-	<p>Jungling is the action of killing neutral "monsters", which are creatures located between the lanes in Summoner's Rift. The Jungle is the part of the Summoner's Rift that is not occupied by lanes or team's bases, including the river that divides it. Junglers rely on killing neutral monsters in the jungle to keep up with their laning teammates in terms of gold and experience. In a standard 5-on-5 game of League of Legends, four players in each team are laners, and one player is the jungler.</p>
-	<h4>Champions</h4>
-<img src="file:///C|/Users/ac98777/OneDrive - Avondale College/Dreamweaver/champs.jpg" alt="LOL-Champions" width="1080">
-	<p>Champions are the player-controlled characters in League of Legends icon.png League of Legends. Each champion possesses unique abilities and attributes.An ability is a unique action (as opposed to summoner spells / active ability items) performed by and only available to a specific champion in-game (Baron Nashor Baron Nashor is currently the only example of a non-champion unit with abilities). Each of these special moves make up a portion of a champion's 'kit'. Almost all champions will have an innate ability, 3 basic abilities, and an ultimate one.New champions are added to the roster several times a year, but older champions are often revisited to improve their gameplay and visuals to modern standards.</p>
+  <h4 id="Minions">Minions</h4>
+  <!--LOL meaning League of Legends--> 
+  <img src="../../OneDrive - Avondale College/HomeDream/minions.png" alt="LOL-Minions" width="420" height="240">
+  <p>Minions are units that comprise the main force sent by the Nexus. They spawn periodically from their Nexus and advance along a lane towards the enemy Nexus, automatically engaging any enemy unit or structure they encounter. They are controlled by artificial intelligence and only use basic attacks.</p>
+  <h4>Turrets</h4>
+  <img src="../../OneDrive - Avondale College/HomeDream/turret.png" alt="LOL-Turret">
+  <p>Turrets, also called towers, are heavy fortifications that attack enemy units on sight. Turrets are a core component of League of Legends. They deal damage to enemies and provide vision to their team, allowing them to better control the battlefield. Turrets target one unit at a time and deal heavy damage. Teams must destroy enemy turrets to push their assault into enemy territory. </p>
+  <h4>Inhibitor</h4>
+  <img src="../../OneDrive - Avondale College/HomeDream/inhib.png" alt="LOL-inhibitor">
+  <p>nhibitors are structures that block the training of enemy super minions in their respective same lane. Inhibitors have 4000 health, 15 health regeneration per second, 20 armor, and no magic resistance.
+    
+    Once an enemy team's inhibitor is destroyed, the Nexus will start spawning Super Minions (replacing the siege minions with Super Minions if the wave normally includes one).
+    
+    Each team has 3 Inhibitors on Summoner's Rift and 2 on Twisted Treeline, of which at least one must be destroyed for the Nexus and its turrets to be vulnerable to attack. Every inhibitor is protected by a turret; while this turret is up, the inhibitor is invulnerable to damage. When all of the enemy team's inhibitors are destroyed, each lane spawns two Super Minions per minion wave.
+    
+    Destroyed inhibitors respawn after 5 minutes, resulting in Super Minions no longer being trained.
+    
+    Once its protecting turret is destroyed the inhibitor is extremely susceptible to backdooring. An enemy Marksman icon.png marksman will be able to take down an unprotected inhibitor before a defending champion can Recall Recall and walk to defend it. Additionally, one can't directly Teleport Teleport to it. Destroying an inhibitor can often be worth more than a few champion kills because of the immense lane pressure that Super Minions will provide. (As of patch 3.14, destroyed inhibitors no longer increase the strength of all minions in all lanes). </p>
+  <h4>Nexus</h4>
+  <img src="../../OneDrive - Avondale College/HomeDream/nexus.png" alt="LOL-Nexus">
+  <p>The Nexus is the primary objective in every League of Legends gamemode. A team only wins the match when their opposition's Nexus is destroyed.The Nexus forms the core of each team's base on the Summoner's Rift. Placed directly outside of the Spawn, the Nexus is guarded by two Turrets and spawns each team's Minion waves, one for each lane. The Nexus is undamagable so long as all three allied Inhibitors are alive, or at least one of its turrets are alive.</p>
+  <h4 id="Jungling">Jungling</h4>
+  <img src="../../OneDrive - Avondale College/HomeDream/Jungle_camps_SR.jpg" alt="LOL-Jungling">
+  <p>Jungling is the action of killing neutral "monsters", which are creatures located between the lanes in Summoner's Rift. The Jungle is the part of the Summoner's Rift that is not occupied by lanes or team's bases, including the river that divides it. Junglers rely on killing neutral monsters in the jungle to keep up with their laning teammates in terms of gold and experience. In a standard 5-on-5 game of League of Legends, four players in each team are laners, and one player is the jungler.</p>
+  <h4 id="Champions">Champions</h4>
+  <img src="../../OneDrive - Avondale College/HomeDream/champs.jpg" alt="LOL-Champions" width="1080">
+  <p>Champions are the player-controlled characters in League of Legends icon.png League of Legends. Each champion possesses unique abilities and attributes.An ability is a unique action (as opposed to summoner spells / active ability items) performed by and only available to a specific champion in-game (Baron Nashor Baron Nashor is currently the only example of a non-champion unit with abilities). Each of these special moves make up a portion of a champion's 'kit'. Almost all champions will have an innate ability, 3 basic abilities, and an ultimate one.New champions are added to the roster several times a year, but older champions are often revisited to improve their gameplay and visuals to modern standards.</p>
 </div>
 </body>
 </html>
